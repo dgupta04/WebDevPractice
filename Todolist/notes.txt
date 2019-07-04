@@ -1,0 +1,10 @@
+-- we can use qqueryselector() and refer an id, class or tagname directly in the arugment inside it. All CSS rules apply to this argument including nth child.
+-- callbacks are functions passed to another function as an argument.
+-- JS is single threaded.
+-- asynchronous, i.e., things do not happen at the same time.
+-- if async is mentioned somewhere in the code, then that line may or may not execute before later lines.
+-- taking control of an async is called a callback.
+-- JS natively has only a single thread, hence only one call stack. 
+--browsers have multiple threads by the name of web API.
+-- setTimeout can be used to push any function to the web API and starts executing after the given timer.
+-- returning from an async function is bad practice as it has uncertainity associated to it. 
