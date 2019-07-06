@@ -25,6 +25,7 @@ function addTodo(){
 	var updateTxt = document.createElement('input');
 	updateTxt.type = "text";
 	updateTxt.id = "updateTxt" + id;
+	// updateTxt.style.visibility = "hidden";
 	li.id = id;	
 	// li.style.display = "inline";
 	li.style.marginTop = "20px";
@@ -63,6 +64,7 @@ function refresh(){
 		var updateTxt = document.createElement('input');
 		updateTxt.type = "text";
 		updateTxt.id = "updateTxt" + key;	
+		// updateTxt.style.visibility = "hidden";
 		li.appendChild(updateTxt);
 		li.id = key;
 		li.style.marginTop = "20px";
